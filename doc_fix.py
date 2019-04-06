@@ -14,8 +14,7 @@ for i in set(list(docstring.values())):
     err_freq[i] = list(docstring.values()).count(i)
 
 a = [i for i in docstring.keys() if docstring[i] == 'GL08']
-#for i in data.columns:
-#    if docstring.get()
+
 data.head()
 
 
